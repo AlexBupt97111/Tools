@@ -8,7 +8,7 @@ try:
     else:
         c = x[-4:] 
         b = ''.join(str(a) for a in c) 
-        print("************",b)
+        print("**** **** ****", b)
         print("All ok.")    
 except ValueError:
     print("Some mistake. Input only digits, not letters or other symbols. Check please, and try it again.")  
