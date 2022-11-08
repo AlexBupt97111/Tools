@@ -19,7 +19,8 @@ try:
         else:
             print("Mistake. Input L or A. ")  
             
-    c = Circle()    
+    c = Circle() 
+    
 except ValueError:
     print("Input only digits, not letters or other symbols.Check please and try it again")
 
