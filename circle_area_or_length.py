@@ -16,3 +16,29 @@ elif a == "A":
     getArea(r)   
 else:
     print("Mistake. Input L or A. ")
+    
+###############
+
+import math
+
+class Circle:
+    r = float(input("Input radius of circle: "))
+    p = input("Input L(for length) or A(for area): ")
+  
+    def getLength(r):
+        a = math.pi * (r**2)
+        print(round(a, 2))
+
+    def getPerimeter(r):
+        p = 2 * math.pi * r
+        print(round(p, 2))
+      
+    if p == "L":
+        getLength(r)
+    elif p == "A":
+        getArea(r)   
+    else:
+        print("Mistake. Input P or A. ")
+      
+c = Circle()
+
